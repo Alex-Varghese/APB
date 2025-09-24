@@ -1,0 +1,18 @@
+var g_data = {
+a15:{
+scopes:[{s:'11',b:'0',val:'top'},{link:'z.htm?f=0&s=15',val:'intf'}]
+,assertions:[{dummy:0},{cr:'m',c:'Z',z:'assert__p3',fc:'Gr',pc:'Rr',h0:'0',h1:'0',h2:'29',h3:'29',h4:'0',h5:'0',h6:'0'}
+,{cr:'m',c:'Z',z:'assert__p2',fc:'Gr',pc:'Rr',h0:'0',h1:'0',h2:'29',h3:'29',h4:'0',h5:'0',h6:'0'}
+,{cr:'c',c:'g',z:'assert__p1',fc:'Gr',pc:'Gr',h0:'0',h1:'29',h2:'29',h3:'0',h4:'0',h5:'0',h6:'1'}
+],
+},
+a2:{
+scopes:[{link:'z.htm?f=0&s=2',val:'work.apb_intf'}]
+,assertions:[{dummy:0},{cr:'m',c:'Z',z:'assert__p3',fc:'Gr',pc:'Rr',h0:'0',h1:'0',h2:'29',h3:'29',h4:'0',h5:'0',h6:'0'}
+,{cr:'m',c:'Z',z:'assert__p2',fc:'Gr',pc:'Rr',h0:'0',h1:'0',h2:'29',h3:'29',h4:'0',h5:'0',h6:'0'}
+,{cr:'c',c:'g',z:'assert__p1',fc:'Gr',pc:'Gr',h0:'0',h1:'29',h2:'29',h3:'0',h4:'0',h5:'0',h6:'1'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);

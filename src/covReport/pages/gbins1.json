@@ -1,0 +1,24 @@
+var g_data = {
+c1396:[4,'Transfer_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','10',,'auto[0]'],[0,'1','0',1,'auto[1]']],[]],
+c1397:[4,'PRESETn_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','0',1,'auto[0]'],[0,'1','10',,'auto[1]']],[]],
+c1398:[4,'READ_WRITE_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','5',,'write_bins'],[0,'1','5',,'read_bins']],[]],
+c1399:[4,'W_PADDR_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','5',,'write_address_bin']],[]],
+c1400:[4,'R_PADDR_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','5',,'read_address_bin']],[]],
+c1401:[4,'WRITE_DATA_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','5',,'data']],[]],
+c1402:[4,'W_SLAVE_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','0',1,'slave1'],[0,'1','5',,'slave2']],[]],
+c1403:[4,'R_SLAVE_CP',[],,'1395',1,1,'act_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','0',1,'slave1'],[0,'1','5',,'slave2']],[]],
+c1405:[4,'READ_DATA_OUT_CP',[],,'1404',1,1,'passive_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','10',,'read_data']],[]],
+c1406:[4,'PSLVERR_CP',[],,'1404',1,1,'passive_mon_cgrp','1390','/apb_pkg/apb_coverage',[[],[0,'1','0',1,'err'],[0,'1','10',,'err_n']],[]],
+c1792:[4,'Transfer_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','10',,'auto[0]'],[0,'1','0',1,'auto[1]']],[]],
+c1793:[4,'PRESETn_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','0',1,'auto[0]'],[0,'1','10',,'auto[1]']],[]],
+c1794:[4,'READ_WRITE_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','5',,'write_bins'],[0,'1','5',,'read_bins']],[]],
+c1795:[4,'W_PADDR_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','5',,'write_address_bin']],[]],
+c1796:[4,'R_PADDR_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','5',,'read_address_bin']],[]],
+c1797:[4,'WRITE_DATA_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','5',,'data']],[]],
+c1798:[4,'W_SLAVE_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','0',1,'slave1'],[0,'1','5',,'slave2']],[]],
+c1799:[4,'R_SLAVE_CP',[],,'1791',1,1,'act_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','0',1,'slave1'],[0,'1','5',,'slave2']],[]],
+c1801:[4,'READ_DATA_OUT_CP',[],,'1800',1,1,'passive_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','10',,'read_data']],[]],
+c1802:[4,'PSLVERR_CP',[],,'1800',1,1,'passive_mon_cgrp','1786','work.apb_pkg::apb_coverage',[[],[0,'1','0',1,'err'],[0,'1','10',,'err_n']],[]],
+dummyEnd:0
+};
+processCovergroupsData(g_data);

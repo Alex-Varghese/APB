@@ -1,0 +1,36 @@
+var g_data = {
+f7:{
+scopes:[{link:'z.htm?f=0&s=7',val:'work.master_bridge'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg204',items:[{c:'R',p:'16.66',z:'state'}
+,{cr:'c',s:'1',z:'IDLE',h:'2',c:'g'}
+,{cr:'m',z:'IDLE -> SETUP',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'SETUP',h:'0',c:'r'}
+,{cr:'m',z:'SETUP -> IDLE',h:'0',c:'r'}
+,{cr:'m',z:'SETUP -> ENABLE',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'ENABLE',h:'0',c:'r'}
+,{cr:'m',z:'ENABLE -> IDLE',h:'0',c:'r'}
+,{cr:'m',z:'ENABLE -> SETUP',h:'0',c:'r'}
+]}
+
+],
+},
+f164:{
+scopes:[{s:'11',b:'1',val:'top'},{s:'62',b:'0',val:'dut'},{link:'z.htm?f=0&s=164',val:'dut_mas'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg204',items:[{c:'R',p:'16.66',z:'state'}
+,{cr:'c',s:'1',z:'IDLE',h:'2',c:'g'}
+,{cr:'m',z:'IDLE -> SETUP',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'SETUP',h:'0',c:'r'}
+,{cr:'m',z:'SETUP -> IDLE',h:'0',c:'r'}
+,{cr:'m',z:'SETUP -> ENABLE',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'ENABLE',h:'0',c:'r'}
+,{cr:'m',z:'ENABLE -> IDLE',h:'0',c:'r'}
+,{cr:'m',z:'ENABLE -> SETUP',h:'0',c:'r'}
+]}
+
+],
+},
+dummyEnd:0
+};
+processFsmData(g_data);

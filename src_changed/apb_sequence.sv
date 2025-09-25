@@ -115,10 +115,10 @@ class apb_regression extends uvm_sequence#(apb_seq_item);
 	endfunction
 
 	task body();
-		//`uvm_do(seq0)
-		//`uvm_do(seq1)
-		//`uvm_do(seq2)
-		//`uvm_do(seq3)
-		`uvm_do(seq4)
+		`uvm_do(seq0)
+		`uvm_do(seq1)
+		`uvm_do(seq2)
+		`uvm_do(seq3)
+		//`uvm_do(seq4)
 	endtask
 endclass

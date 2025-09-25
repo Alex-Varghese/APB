@@ -1,14 +1,14 @@
 QUESTA := /home/share/questa.csh
 SHELL := /bin/csh
 
-cover:
+r:
 	source $(QUESTA)
 	make clean
 	vlog -sv +acc +cover +fcover -l apb_top.log top.sv
 	vsim -vopt work.top -voptargs=+acc=npr -assertdebug -l simulation.log -coverage -c -do "coverage save -onexit -assert -directive -cvg -codeAll coverage.ucdb; run -all; exit"
 	vcover report -html coverage.ucdb -htmldir covReport -details
 
-simulate: compile 
+c: compile 
 	vsim -c top +UVM_VERBOSITY=UVM_MEDIUM -do "run -all;exit"
 
 compile:
